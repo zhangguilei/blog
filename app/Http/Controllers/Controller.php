@@ -9,6 +9,5 @@ use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
-    print_r(45654);exit;
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
